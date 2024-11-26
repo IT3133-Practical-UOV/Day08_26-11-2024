@@ -10,10 +10,10 @@ function App() {
     <Router>
 
       <nav>
-        <ul>
-          <li><Link to='/home'>Home</Link></li>
-          <li><Link to='/about'>About Us</Link></li>
-          <li><Link to='/contact'>Contact Us</Link></li>
+        <ul className='navbar'>
+          <li><NavLink to='/home' className='listItem'>Home</NavLink></li>
+          <li><NavLink to='/about' className='listItem'>About Us</NavLink></li>
+          <li><NavLink to='/contact' className='listItem'>Contact Us</NavLink></li>
         </ul>
       </nav>
       <Routes>

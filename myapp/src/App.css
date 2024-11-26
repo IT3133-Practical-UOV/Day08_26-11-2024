@@ -39,3 +39,19 @@
 h1{
   color:cadetblue;
 }
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+ul {
+  list-style: none;
+}
+
+.listItem{
+  text-decoration: none;
+  color:cadetblue;
+  padding: 50px;
+}
